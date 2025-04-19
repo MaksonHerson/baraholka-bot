@@ -1,0 +1,18 @@
+[project]
+name = "baraholka-bot"
+version = "0.1.0"
+description = "Message moderation bot"
+authors = [
+    {name = "[https://github.com/MaksonHerson, https://github.com/MaksonHerson]"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas",
+    "requests (>=2.32.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
